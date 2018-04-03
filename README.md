@@ -1,5 +1,6 @@
 # ABAP_ML_IMG_CLASSIF
-Calling Machine Learning Image Classification Service using ABAP
+Calling Machine Learning Image Classification Service using ABAP.
+
 Since  SAP Leonardo Machine Learning Functional Service are implemented as REST API, the same can be called from ABAP environment too. This  post will explain the same.
 
 Before I go into details of the implementation let me explain the use case.
@@ -20,6 +21,7 @@ Copy the ABAP code provided in repository as a new report program.
 
 Find the below code and replace it with your own API Key
 
-* Set API key for image classification API
   lo_http_client->request->set_header_field( name = 'APIKey'
                                  value = 'Your Own API Key' ).
+For more details visit my blog page
+https://blogs.sap.com/2018/03/28/calling-machine-learning-image-classification-service-using-abap/
