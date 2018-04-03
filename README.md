@@ -23,5 +23,6 @@ Find the below code and replace it with your own API Key
 
   lo_http_client->request->set_header_field( name = 'APIKey'
                                  value = 'Your Own API Key' ).
+
 For more details visit my blog page
 https://blogs.sap.com/2018/03/28/calling-machine-learning-image-classification-service-using-abap/
